@@ -1,0 +1,80 @@
+.filme-info {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #1e1e1e; /* Preto */
+    color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 140, 0, 0.5); /* Sombra laranja */
+    text-align: center;
+}
+
+.filme-info h1 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+    color: #ff8c00; /* Laranja */
+}
+
+.filme-info img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(255, 140, 0, 0.3);
+    margin-bottom: 15px;
+}
+
+.filme-info h3 {
+    font-size: 1.5rem;
+    margin-top: 20px;
+    color: #ff8c00;
+}
+
+.filme-info span {
+    display: block;
+    font-size: 1.1rem;
+    color: #b0b0b0; /* Cinza */
+    line-height: 1.5;
+    text-align: justify;
+    margin-top: 10px;
+}
+
+.filme-info strong {
+    display: block;
+    font-size: 1.3rem;
+    margin-top: 15px;
+    color: #ff8c00;
+}
+
+.area-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.area-buttons button {
+    background-color: #ff8c00; /* Laranja */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+    box-shadow: 0 4px 8px rgba(255, 140, 0, 0.3);
+}
+
+.area-buttons button:hover {
+    background-color: #e07b00; /* Laranja mais escuro */
+    transform: scale(1.05);
+}
+
+.area-buttons button a {
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+}
+
+.area-buttons button a:hover {
+    text-decoration: none;
+}
